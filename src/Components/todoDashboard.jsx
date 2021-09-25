@@ -1,9 +1,8 @@
 import React from "react";
-import Paper from "../../node_modules/@mui/core"
+import Paper from '@mui/material/Paper';
 
-export const todoDashboard = () => {
+export const TodoDashboard = () => {
     <>
         <Paper elevation={3} />
     </>
-
 };

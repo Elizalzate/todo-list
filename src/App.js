@@ -1,10 +1,10 @@
 import './App.css';
-import todoDashboard from './src/Components/todoDashboard';
+import TodoDashboard from './Components/TodoDashboard';
 
 function App() {
   return (
     <>
-      <todoDashboard/>
+      <TodoDashboard/>
     </>
   );
 }
