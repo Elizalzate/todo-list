@@ -1,5 +1,6 @@
 import './App.css';
-import TodoDashboard from './Components/TodoDashboard';
+import { TodoDashboard } from './Components/TodoDashboard';
+
 
 function App() {
   return (
