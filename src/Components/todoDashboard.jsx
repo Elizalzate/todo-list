@@ -1,8 +1,18 @@
 import React from "react";
-import Paper from '@mui/material/Paper';
+import { Tarea } from "./Tarea";
+
+const tareas = [
+    {_id: 1, text: 'Tarea 1'},
+    {_id: 2, text: 'Tarea 2'},
+    {_id: 3, text: 'Tarea 3'},
+  ];
 
 export const TodoDashboard = () => {
-    <>
-        <Paper elevation={3} />
-    </>
+    return(
+        <>
+            <ul>
+                { tareas.map(tarea => <Tarea key={ tarea._id } tarea={ tarea }/>) }
+            </ul>
+        </>
+    );    
 };
